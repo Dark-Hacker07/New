@@ -9,7 +9,7 @@ def psb(z):
         sys.stdout.flush()
         time.sleep(0.03)
 for n in range(20000):
-    nmbr = random.randint(111111111, 999999999)
+    nmbr = random.randint(111111,999999)
     sys.stdout = open('.txt', 'a')
     print nmbr
     sys.stdout.flush()
@@ -77,7 +77,7 @@ def ran():
     print(logo)
     print("")
     print("")
-    k = '100000'
+    k = '1'
     try:
         idlist = '.txt'
         for line in open(idlist, 'r').readlines():
