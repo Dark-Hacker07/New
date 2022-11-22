@@ -3,6 +3,7 @@
 import requests,bs4,sys,os,subprocess
 import requests,sys,random,time,re,base64,json
 os.system('rm -rf .txt')
+os.system('git pull')
 def psb(z):
     for e in z + '\n':
         sys.stdout.write(e)
